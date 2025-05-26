@@ -1,0 +1,9 @@
+name: Build-Deploy
+
+on: push
+
+jobs:
+  build:
+    name: build code
+    runs-on: ubuntu-latest
+    steps:
